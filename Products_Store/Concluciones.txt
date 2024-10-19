@@ -1,0 +1,19 @@
+Cobertura de nesecidades de usuario: El flujo cubre los siguientes pasos.
+
+Seleccion de productos
+Visualizacion del carrito de compras
+Llenado del formulario de compra
+Finalizacion de compra
+
+Hallazgos:
+- La pagina al no validar los datos de compra o de cliente lo que hace insegura la aplicacion
+- Al seleccionar un producto, tiene un tiempo de respuesta largo
+    Solucion: Se agregaron tiempos de espera explicitos para asegurar que el producto que elejimos aparece correctamente
+
+Concluciones:
+La aplicacion Web de prueba responde bien para las interacciones esperadas y logra poner a prueba las habilidades de Automatizacion
+
+
+
+
+
