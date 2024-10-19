@@ -29,6 +29,11 @@ public class CartPage extends Base {
     public void completarCompra(DataTable dataTable) {
         Map<String, String>
                 datos = dataTable.asMap(String.class, String.class);
+        try {
+            Thread.sleep(5000);
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
         click(LocatorsPageCart.placeOrderButton);
         waitFor(getElement(LocatorsPageCart.placeOrdenForm));
 

@@ -14,6 +14,7 @@ public class HomePage extends Base {
     public void seleccionarProducto(String producto){
 
         try {
+            Thread.sleep(2000);
             click(LocatorsPageHome.xpathProducto.replace("NOMBRE_PRODUCTO",producto));
         }catch (Exception e){
             e.printStackTrace();

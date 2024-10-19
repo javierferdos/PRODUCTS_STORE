@@ -9,9 +9,15 @@ Hallazgos:
 - La pagina al no validar los datos de compra o de cliente lo que hace insegura la aplicacion
 - Al seleccionar un producto, tiene un tiempo de respuesta largo
     Solucion: Se agregaron tiempos de espera explicitos para asegurar que el producto que elejimos aparece correctamente
+- La aplicacion Web en ocaciones presenta tiempos de espera bastante largos para que presente la lista de productos para poder escoger.
+    Solucion: Se agrega un tiempo de espera de 3 segundos, si no aparecen presentara un error en consola
 
 Concluciones:
 La aplicacion Web de prueba responde bien para las interacciones esperadas y logra poner a prueba las habilidades de Automatizacion
+
+Aspectos de mejora:
+- Mejorar los tiempos de respuesta de la aplicacion dado que no tienen buen tiempo de respuesta y puede causar que se presenten errores en la automatizacion
+
 
 
 
