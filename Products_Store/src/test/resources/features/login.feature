@@ -10,6 +10,5 @@ Feature: Realizar una compra del producto agregado al carrito
       | Country         | colombia            |
       | City            | bogota              |
       | Credit          | 1150 9658 7411 2587 |
-      | card            | 123                 |
       | Month           | 09                  |
       | Year            | 2023                |

@@ -106,7 +106,7 @@ public class Base extends PageObject {
      * @param locator
      */
     public void click(String locator) {
-        click(getElement(locator));
+        click(getElement(getBy(locator)));
     }
 
     /***
