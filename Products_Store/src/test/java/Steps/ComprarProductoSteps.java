@@ -10,9 +10,11 @@ import io.cucumber.java.en.When;
 import org.junit.After;
 import org.junit.Assert;
 
+
 public class ComprarProductoSteps extends hooks{
     HomePage hpage = new HomePage();
     CartPage cPage = new CartPage();
+
     @Given("el usuario navegara en la pagina Products Store")
     public void el_usuario_navegara_en_la_pagina_products_store() {
 

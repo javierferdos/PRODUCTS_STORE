@@ -44,6 +44,7 @@ public class CartPage extends Base {
         type(LocatorsPageCart.inputCrediCardForm, datos.get("Credit"));
         type(LocatorsPageCart.inputMonthForm, datos.get("Month"));
         type(LocatorsPageCart.inputYearForm, datos.get("Year"));
+
         try {
             Thread.sleep(2000);
             click(LocatorsPageCart.buttonPurchase);
